@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fffafa;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+form{
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form input, form select{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 10px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid gray;
+}
+
+#adicionar form button{
+    height: 40px;
+    width: 150px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #65fa61;
+    color: white;
+}
+
+#adicionar form button:hover{
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+#dados form button{
+    height: 40px;
+    width: 150px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #3cfad8;
+    color: white;
+}
+
+#dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dados form button:hover{
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+table{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+table th, table td{
+    width: 200px;
+    padding: 5px 10px;
+    height: 30px;
+}
+
+.btn-atualizar, .btn-excluir{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius:5px;
+}
+
+.btn-atualizar{
+    background: #faaa49;
+    color: white;
+}
+
+.btn-atualizar:hover{
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+.btn-excluir{
+    background: #f21e1e;
+    color: white;
+}
+
+.btn-excluir:hover{
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+a{  
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+
+
