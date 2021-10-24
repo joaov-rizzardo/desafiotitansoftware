@@ -46,6 +46,16 @@
 
             $stmt->execute();
         }
+
+        public function atualizarProduto(){
+            $query = 'update produtos set nome = :nome, preco = :preco where id = :id';
+            $stmt = $this->connection->prepare($query);
+            $stmt->bindValue(':nome', $this->__get('nome'));
+            $stmt->bindValue(':preco',$this->__get('preco'));
+            $stmt->bindValue(':id', $this->__get('id'));
+
+            $stmt->execute();
+        }
     }
 
 ?>
